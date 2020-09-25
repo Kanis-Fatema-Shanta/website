@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    font-family: 'Bree Serif', serif;
+}
+h1{
+    font-size: 30px;
+    
+}
+h2{
+   
+    font-size: 40px;
+}
+
+
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    padding-right: 5%;
+
+}
+.top-background{
+    background-image: url("images/header-bg.png");
+    /* background-repeat: no-repeat;
+} */
+}
+.half-width img{
+    width: 100%;
+}
+
+#high-light-name{
+    color: indianred;
+}
