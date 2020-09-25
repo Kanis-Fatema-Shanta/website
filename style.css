@@ -19,11 +19,7 @@ h2{
     padding-right: 5%;
 
 }
-.top-background{
-    background-image: url("images/header-bg.png");
-    /* background-repeat: no-repeat;
-} */
-}
+
 .half-width img{
     width: 100%;
 }
@@ -31,3 +27,14 @@ h2{
 #high-light-name{
     color: indianred;
 }
+
+.top-banner{
+   
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.bottom-banner{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
