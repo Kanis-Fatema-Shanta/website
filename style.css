@@ -28,6 +28,12 @@ h2{
     color: indianred;
 }
 
+section{
+    height: 900px;
+    padding-bottom: 100px;
+}
+
+
 .top-banner{
    
     background-image: url("images/header-bg.png");
@@ -35,6 +41,10 @@ h2{
 }
 .bottom-banner{
     background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.footer-banner{
+    background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
 }
 .link-button{
@@ -45,3 +55,21 @@ h2{
     color: white;
     font-weight: 700%;
 }
+
+
+.work-pic{
+    
+    margin-left: 5%;
+    padding:2%;
+}
+.work-pic img{
+    width:25%;
+    padding:2%;
+}
+.work-pic img :hover{
+    color: khaki;
+}
+.text-center{
+    text-align: center;
+}
+
