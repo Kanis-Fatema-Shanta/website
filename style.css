@@ -25,6 +25,7 @@ h2{
 }
 
 #high-light-name{
+    
     color: indianred;
 }
 
@@ -55,21 +56,40 @@ section{
     color: white;
     font-weight: 700%;
 }
+.link-button:hover{
+    border: none;
+    border-radius: 10px;
+    box-shadow:3px 5px 10px 1px rgb(102, 0, 128) ;
+    background-color:rgb(218, 221, 218)
+
+    transition:1s}
 
 
-.work-pic{
+.work-img{
     
     margin-left: 5%;
     padding:2%;
 }
-.work-pic img{
+.work-img img{
     width:25%;
     padding:2%;
 }
-.work-pic img :hover{
-    color: khaki;
-}
+.work-pic:hover{
+    border: none;
+    border-radius: 10px;
+    box-shadow:3px 5px 10px 1px lightgray ;
+    background-color: white;
+
+    transition:background-image,1s}
+
 .text-center{
+    text-align: center;
+}
+.img1:hover{
+    color: lightcoral;
+    transform: scale(1);
+}
+h3{
     text-align: center;
 }
 
